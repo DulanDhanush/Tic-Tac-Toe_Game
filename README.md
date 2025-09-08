@@ -2,8 +2,7 @@
 
 ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![GitHub Repo stars](https://img.shields.io/github/stars/DulanDhanush/TicTacToeCSharp?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/DulanDhanush/TicTacToeCSharp?style=for-the-badge)
+
 
 A classic **Tic Tac Toe (X & O)** game developed using **C# Windows Forms**. This project showcases event handling, conditional logic, UI design, and game mechanics, including a single-player mode powered by the minimax algorithm for an AI opponent. Perfect for learning C# and Windows Forms development or enjoying a quick game!
 
