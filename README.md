@@ -59,10 +59,9 @@ Tic_Tac_Toe_Game_in_C_/
   - Use the **Reset** button to clear the board and reset scores.
 
 ## 📸 Screenshots
-*(Add screenshots here, e.g., main game window, winning highlight, or score display. Place images in a `/screenshots` folder in your repository and reference them as follows:)*
-```markdown
-![Game Interface](screenshots/game_interface.png)
-![Winning Highlight](screenshots/winning_highlight.png)
+
+<img width="1207" height="693" alt="image" src="https://github.com/user-attachments/assets/21866910-0151-41bd-93fd-292ee35318e1" />
+
 ```
 
 ## 🧠 Single-Player AI
@@ -79,8 +78,8 @@ The single-player mode features an AI opponent (Player O) powered by the **minim
 
 ## 👤 Author
 **Dulan Dhanush Kandeepan**  
-📧 **Contact**: [your-email@example.com]  
-🔗 **GitHub**: [your-username](https://github.com/your-username)
+📧 **Contact**: dulandhanush0@gmail.com 
+🔗 **GitHub**: (https://github.com/DulanDhanush)
 
 ## 🤝 Contributing
 Contributions are welcome! To contribute:
