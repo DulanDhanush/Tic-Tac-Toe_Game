@@ -22,3 +22,77 @@ A classic **Tic Tac Toe (X & O)** game developed using **C# Windows Forms**. Thi
 - **Visual Studio**: IDE used for development and UI design.
 
 ## 📂 Project Structure
+```
+Tic_Tac_Toe_Game_in_C_/
+├── Form1.cs              # Main game logic and event handling
+├── Form1.Designer.cs     # Auto-generated UI design code
+├── Program.cs            # Application entry point
+├── Tic_Tac_Toe_Game_in_C_.csproj  # Project configuration file
+```
+
+## 🚀 How to Run
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/TicTacToeCSharp.git
+   ```
+2. **Open in Visual Studio**:
+   - Launch Visual Studio and open the `.csproj` file.
+3. **Build the Project**:
+   - Press `Ctrl + Shift + B` to build the solution.
+4. **Run the Game**:
+   - Press `F5` to start the game and enjoy playing!
+
+### Prerequisites
+- Visual Studio (2019 or later recommended) with .NET Framework support.
+- Basic understanding of C# and Windows Forms (optional for running the game).
+
+## 🎯 Game Rules
+- **Starting Player**: Player X always starts.
+- **Gameplay**:
+  - In two-player mode, players alternate clicking empty squares to place their mark (X or O).
+  - In single-player mode, Player X (human) plays against Player O (AI).
+- **Winning Condition**: The first player to align three marks in a row (horizontally, vertically, or diagonally) wins.
+- **Draw Condition**: If all nine squares are filled without a winner, the game ends in a draw.
+- **Controls**:
+  - Click a square to place your mark.
+  - Use the **New Game** button to start a new round without resetting scores.
+  - Use the **Reset** button to clear the board and reset scores.
+
+## 📸 Screenshots
+*(Add screenshots here, e.g., main game window, winning highlight, or score display. Place images in a `/screenshots` folder in your repository and reference them as follows:)*
+```markdown
+![Game Interface](screenshots/game_interface.png)
+![Winning Highlight](screenshots/winning_highlight.png)
+```
+
+## 🧠 Single-Player AI
+The single-player mode features an AI opponent (Player O) powered by the **minimax algorithm**, which:
+- Evaluates all possible moves to ensure optimal play.
+- Guarantees the AI either wins or forces a draw when possible.
+- Provides a challenging experience for the human player (Player X).
+
+## 📌 Future Improvements
+- **Custom Themes**: Add options for different UI themes (e.g., dark mode, colorful grids).
+- **Sound Effects**: Include audio feedback for moves, wins, and draws.
+- **Difficulty Levels**: Implement adjustable AI difficulty (e.g., easy, medium, hard).
+- **Game Statistics**: Track and display detailed game statistics (e.g., win/loss ratios).
+
+## 👤 Author
+**Dulan Dhanush Kandeepan**  
+📧 **Contact**: [your-email@example.com]  
+🔗 **GitHub**: [your-username](https://github.com/your-username)
+
+## 🤝 Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit (`git commit -m "Add your feature"`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
+
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Happy gaming! 🎉 Feel free to star ⭐ or fork this repository if you find it useful!
