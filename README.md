@@ -2,6 +2,8 @@
 
 ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![GitHub Repo stars](https://img.shields.io/github/stars/DulanDhanush/TicTacToeCSharp?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/DulanDhanush/TicTacToeCSharp?style=for-the-badge)
 
 A classic **Tic Tac Toe (X & O)** game developed using **C# Windows Forms**. This project showcases event handling, conditional logic, UI design, and game mechanics, including a single-player mode powered by the minimax algorithm for an AI opponent. Perfect for learning C# and Windows Forms development or enjoying a quick game!
 
@@ -31,7 +33,7 @@ Tic_Tac_Toe_Game_in_C_/
 ## 🚀 How to Run
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/TicTacToeCSharp.git
+   git clone https://github.com/DulanDhanush/TicTacToeCSharp.git
    ```
 2. **Open in Visual Studio**:
    - Launch Visual Studio and open the `.csproj` file.
@@ -57,10 +59,7 @@ Tic_Tac_Toe_Game_in_C_/
   - Use the **Reset** button to clear the board and reset scores.
 
 ## 📸 Screenshots
-
-<img width="1207" height="693" alt="image" src="https://github.com/user-attachments/assets/21866910-0151-41bd-93fd-292ee35318e1" />
-
-```
+![Game Interface](https://github.com/user-attachments/assets/21866910-0151-41bd-93fd-292ee35318e1)
 
 ## 🧠 Single-Player AI
 The single-player mode features an AI opponent (Player O) powered by the **minimax algorithm**, which:
@@ -76,8 +75,8 @@ The single-player mode features an AI opponent (Player O) powered by the **minim
 
 ## 👤 Author
 **Dulan Dhanush Kandeepan**  
-📧 **Contact**: dulandhanush0@gmail.com 
-🔗 **GitHub**: (https://github.com/DulanDhanush)
+📧 **Contact**: dulandhanush0@gmail.com  
+🔗 **GitHub**: [DulanDhanush](https://github.com/DulanDhanush)
 
 ## 🤝 Contributing
 Contributions are welcome! To contribute:
@@ -88,7 +87,7 @@ Contributions are welcome! To contribute:
 5. Open a pull request.
 
 ## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
