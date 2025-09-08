@@ -1,52 +1,24 @@
-🎮 Tic Tac Toe Game (C# WinForms)
+# 🎮 Tic Tac Toe Game (C# WinForms)
 
-A simple Tic Tac Toe (X & O) game built using C# Windows Forms.This project demonstrates the use of event handling, conditional logic, UI controls, and basic game mechanics in C#.
-✨ Features
+![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![GitHub Repo stars](https://img.shields.io/github/stars/your-username/TicTacToeCSharp?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/your-username/TicTacToeCSharp?style=for-the-badge)
 
-Two-player mode (Player X vs Player O).
-Single-player mode with AI (using minimax algorithm).
-Automatically detects wins, losses, or draws.
-Highlights winning line in green.
-Keeps track of player scores.
-New Game and Reset options.
-Simple and interactive UI.
+A classic **Tic Tac Toe (X & O)** game developed using **C# Windows Forms**. This project showcases event handling, conditional logic, UI design, and game mechanics, including a single-player mode powered by the minimax algorithm for an AI opponent. Perfect for learning C# and Windows Forms development or enjoying a quick game!
 
-🛠️ Technologies Used
+## ✨ Features
+- **Two-Player Mode**: Compete as Player X against Player O.
+- **Single-Player Mode**: Challenge an AI opponent (Player O) using the minimax algorithm.
+- **Win Detection**: Automatically detects wins, losses, or draws.
+- **Winning Line Highlight**: Highlights the winning line in green for visual feedback.
+- **Score Tracking**: Keeps track of scores for both players across multiple games.
+- **Game Controls**: Includes **New Game** and **Reset** buttons for easy replay.
+- **User-Friendly Interface**: Simple and intuitive UI built with Windows Forms.
 
-C# (Windows Forms Application)  
-.NET Framework  
-Visual Studio IDE
+## 🛠️ Technologies Used
+- **C#**: Core programming language for game logic and UI interaction.
+- **.NET Framework**: Platform for building the Windows Forms application.
+- **Visual Studio**: IDE used for development and UI design.
 
-📂 Project Structure
-Tic_Tac_Toe_Game_in_C_/
-│-- Form1.cs              # Main game logic
-│-- Form1.Designer.cs     # UI design (auto-generated)
-│-- Program.cs            # Entry point
-│-- Tic_Tac_Toe_Game_in_C_.csproj
-
-🚀 How to Run
-
-Clone this repository:git clone https://github.com/your-username/TicTacToeCSharp.git
-
-
-Open the project in Visual Studio.
-Build the project (Ctrl + Shift + B).
-Run (F5) and enjoy the game 🎉.
-
-🎯 Game Rules
-
-Player X always starts.
-In two-player mode, players take turns clicking on empty squares.
-In single-player mode, Player X (human) competes against Player O (AI).
-First player to align 3 in a row (horizontally, vertically, or diagonally) wins.
-If all squares are filled with no winner → Draw.
-
-📸 Screenshots
-(Add screenshots of your game UI here, e.g., main window, winning highlight, etc.)
-📌 Future Improvements
-
-Improve UI with custom themes.
-Add sound effects for moves and wins.
-
-👤 Author
-Dulan Dhanush Kandeepan📧 Contact: [your email]🔗 GitHub: [your GitHub link]
+## 📂 Project Structure
