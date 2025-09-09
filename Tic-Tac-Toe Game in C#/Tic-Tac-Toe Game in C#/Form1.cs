@@ -76,7 +76,7 @@ namespace Tic_Tac_Toe_Game_in_C_
 
         void CheckForWin()
         {
-            bool winner = false;
+            bool winner = false;//this is for winner logic
 
             // Check rows for X
             if ((button1.Text == "X" && button2.Text == "X" && button3.Text == "X") ||
@@ -204,187 +204,13 @@ namespace Tic_Tac_Toe_Game_in_C_
         }
 
         // Button click handlers for the game grid
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (button1.Text == "")
-            {
-                if (checker)
-                {
-                    button1.Text = "X";
-                    checker = false;
-                }
-                else
-                {
-                    button1.Text = "O";
-                    checker = true;
-                }
-                moveCount++;
-                CheckForWin();
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (button2.Text == "")
-            {
-                if (checker)
-                {
-                    button2.Text = "X";
-                    checker = false;
-                }
-                else
-                {
-                    button2.Text = "O";
-                    checker = true;
-                }
-                moveCount++;
-                CheckForWin();
-            }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            if (button3.Text == "")
-            {
-                if (checker)
-                {
-                    button3.Text = "X";
-                    checker = false;
-                }
-                else
-                {
-                    button3.Text = "O";
-                    checker = true;
-                }
-                moveCount++;
-                CheckForWin();
-            }
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            if (button4.Text == "")
-            {
-                if (checker)
-                {
-                    button4.Text = "X";
-                    checker = false;
-                }
-                else
-                {
-                    button4.Text = "O";
-                    checker = true;
-                }
-                moveCount++;
-                CheckForWin();
-            }
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            if (button5.Text == "")
-            {
-                if (checker)
-                {
-                    button5.Text = "X";
-                    checker = false;
-                }
-                else
-                {
-                    button5.Text = "O";
-                    checker = true;
-                }
-                moveCount++;
-                CheckForWin();
-            }
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            if (button6.Text == "")
-            {
-                if (checker)
-                {
-                    button6.Text = "X";
-                    checker = false;
-                }
-                else
-                {
-                    button6.Text = "O";
-                    checker = true;
-                }
-                moveCount++;
-                CheckForWin();
-            }
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            if (button7.Text == "")
-            {
-                if (checker)
-                {
-                    button7.Text = "X";
-                    checker = false;
-                }
-                else
-                {
-                    button7.Text = "O";
-                    checker = true;
-                }
-                moveCount++;
-                CheckForWin();
-            }
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            if (button8.Text == "")
-            {
-                if (checker)
-                {
-                    button8.Text = "X";
-                    checker = false;
-                }
-                else
-                {
-                    button8.Text = "O";
-                    checker = true;
-                }
-                moveCount++;
-                CheckForWin();
-            }
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            if (button9.Text == "")
-            {
-                if (checker)
-                {
-                    button9.Text = "X";
-                    checker = false;
-                }
-                else
-                {
-                    button9.Text = "O";
-                    checker = true;
-                }
-                moveCount++;
-                CheckForWin();
-            }
-        }
-
-        // Reset/New Game button
-        private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         //RESET button
         private void button11_Click(object sender, EventArgs e)
         {
             ResetGame();
+            
+
         }
         // Exit button
         private void button12_Click(object sender, EventArgs e)
@@ -396,6 +222,7 @@ namespace Tic_Tac_Toe_Game_in_C_
         {
 
             ResetGame();
+            MessageBox.Show("New Game Started!", " Tic Tac Toe", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button1_Click_1(object sender, EventArgs e)
